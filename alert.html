@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts</title>
+</head>
+<style>
+    .back{
+        background-color: rgb(165, 165, 170);
+        width: 300px;
+        height: 600px;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 00px 600px;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <p> <form action=""><h1>Alerts</h1>
+      <div class="back"><h2>Traffic</h2>
+        <form action="/action_page.php" method="get">
+            <label for="vol">Traffic Level</label>
+            <input type="range" id="range" name="Rate" min="0" max="5">
+          </form>  
+          <h2>Weather</h2>
+          <form action="/action_page.php">
+          <input type="radio" id="Good" name="text" value="Good">
+           <label for="Good">Good</label><br>
+             <input type="radio" id="Bad" name="text" value="Bad">
+             <label for="Moderate">Bad</label><br>
+             <input type="radio" id="Moderate" name="text" value="Moderate">
+         <label for="Moderate">Moderate</label><br><br>
+            </form>
+            <h2>Safety</h2>
+            <form action="/action_page.php">
+                <input type="radio" id="text" name="text" value="RISKY">
+                 <label for="RISKY">RISKY</label><br>
+                   <input type="radio" id="text" name="text" value="NOT RISKY">
+                   <label for="NOT RISKY">NOT RISKY</label><br>
+                   <input type="radio" id="Moderate" name="text" value="Moderate">
+               <label for="Moderate">Moderate</label><br><br>
+               <input type="submit" value="Submit">
+                  </form></div>
+           
+    </p></form>
+</body>
+</html>
